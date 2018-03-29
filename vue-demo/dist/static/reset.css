@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, applet, object, iframe, p, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, span,strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, input,select,textarea,label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video,button{border:none;font-family:"Microsoft YaHei",Tohoma,Arial; font-style: normal; margin: 0; padding: 0;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+html,body{font-size:12px;}
+a{color:#333;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);cursor:pointer;}    
+li{list-style:none;}
+img{vertical-align:middle;width:100%;height:auto;}
+textarea{resize:none;}
+input[type="text"],input[type="number"],input[type="button"],button{font-family:\5FAE\8F6F\96C5\9ED1;-webkit-appearance:none;background:none;outline: none;}
+
+html {
+    font-size: 40px;
+}
+
+@media screen and (min-width: 642px) and (max-width: 748px){
+    html {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 826px){
+    html {
+        font-size: 46.875px;
+    }
+}
+
+@media screen and (min-width: 828px) and (max-width: 1278px){
+    html {
+        font-size: 51.75px;
+    }
+} 
+
+@font-face {
+  font-family: 'iconfont';  /* project id 369039 */
+  src: url('//at.alicdn.com/t/font_sn8p1d9i7l0oogvi.eot');
+  src: url('//at.alicdn.com/t/font_sn8p1d9i7l0oogvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_sn8p1d9i7l0oogvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_sn8p1d9i7l0oogvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_sn8p1d9i7l0oogvi.svg#iconfont') format('svg');
+}
+
+.iconfont{font-family:'iconfont';}
